@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace PDNotifier
 {
-    internal class Dashboard : ISend<>
+    public class Dashboard : ISend<MessageEvent>
     {
+        public event EventHandler<MessageEvent> OnChange = delegate { };
+
+        public void Notify()
+        {
+            OnChange?.Invoke(this, new MessageEvent { 
+                Message = "The situation on streets is peaceful." 
+            });
+        }
     }
 }

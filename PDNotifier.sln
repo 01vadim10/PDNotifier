@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDNotifier", "PDNotifier\PDNotifier.csproj", "{4EDC96E0-A8A8-4334-BE37-B5F3C5F00962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDNotifier", "PDNotifier\PDNotifier.csproj", "{4EDC96E0-A8A8-4334-BE37-B5F3C5F00962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDNotifier.Tests", "PDNotifier.Tests\PDNotifier.Tests.csproj", "{C47E2BC1-113E-43EE-8295-CEB2EBAA5CE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4EDC96E0-A8A8-4334-BE37-B5F3C5F00962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EDC96E0-A8A8-4334-BE37-B5F3C5F00962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EDC96E0-A8A8-4334-BE37-B5F3C5F00962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C47E2BC1-113E-43EE-8295-CEB2EBAA5CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C47E2BC1-113E-43EE-8295-CEB2EBAA5CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C47E2BC1-113E-43EE-8295-CEB2EBAA5CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C47E2BC1-113E-43EE-8295-CEB2EBAA5CE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
