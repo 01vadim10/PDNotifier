@@ -10,10 +10,10 @@ namespace PDNotifier
     {
         public event EventHandler<MessageEvent> OnChange = delegate { };
 
-        public void Notify()
+        public void Notify(string msg)
         {
             OnChange?.Invoke(this, new MessageEvent { 
-                Message = "The situation on streets is peaceful." 
+                Message = msg
             });
         }
     }
